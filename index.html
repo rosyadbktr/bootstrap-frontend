@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap Frontend</title>
+    <script src="https://kit.fontawesome.com/16cbd7c9c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 px-5 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">Bootstarp Frontend</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-auto">
+                        <a href="#" class="nav-link">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Questions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+
+    <section class="bg-dark text-light px-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between text-center text-md-start">
+                <div class="py-5">
+                    <h1 class="d-md-inline-block">Rumah Quran&nbsp;</h1>
+                    <h1 class="d-md-inline-block"><span class="text-warning">Ar-Rayah</span></h1>
+                    <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur voluptatem
+                        similique eaque,
+                        optio a iste architecto suscipit consequuntur.</p>
+                    <button type="button" class="btn btn-primary">Daftar</button>
+                </div>
+                <img class="img-fluid w-50 align-self-end d-none d-md-block" src="image/pesantren.png"
+                    alt="anak pesantren">
+            </div>
+        </div>
+    </section>
+
+    <!-- question -->
+
+    <section class="bg-warning px-5 py-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h2>Tanya kami :)</h2>
+                <div class="input-group question-box">
+                    <input type="text" class="form-control" placeholder="pertanyaan anda">
+                    <span class="input-group-text">kirim</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- programs -->
+
+    <section class="p-5 text-center">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md ">
+                    <div class="card bg-primary">
+                        <div class="card-body text-light">
+                            <div class="h1">
+                                <i class="fa-solid fa-book-quran mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Tahfidz</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis
+                                illo
+                                doloremque voluptate quod dolores!</p>
+                            <a href="#" class="btn btn-warning">lebih lanjut</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary">
+                        <div class="card-body text-light">
+                            <div class="h1">
+                                <i class="fa-solid fa-kaaba mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Arabic</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis
+                                illo
+                                doloremque voluptate quod dolores!</p>
+                            <a href="#" class="btn btn-warning">lebih lanjut</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-primary">
+                        <div class="card-body text-light">
+                            <div class="h1">
+                                <i class="fa-solid fa-house mb-3"></i>
+                            </div>
+                            <h5 class="card-title">Asrama</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt nobis
+                                illo
+                                doloremque voluptate quod dolores!</p>
+                            <a href="#" class="btn btn-warning">lebih lanjut</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- frequently Asked Question -->
+
+    <section class="p-5 bg-warning">
+        <div class="container">
+            <h2 class="text-center mb-4">frequently Asked Question</h2>
+            <div class="accordion accordion-flush" id="faq">
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one">
+                            Apa saja yang akan didapatkan oleh santri?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis
+                            adipisci odio facilis sequi iure magni quisquam nisi cum dolorem deserunt maiores,
+                            officiis
+                            quis voluptate nemo!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two">
+                            Apakah program ini gratis?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis
+                            adipisci odio facilis sequi iure magni quisquam nisi cum dolorem deserunt maiores,
+                            officiis
+                            quis voluptate nemo!
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three">
+                            Bagaimana cara mendaftar?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#faq">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Veritatis
+                            adipisci odio facilis sequi iure magni quisquam nisi cum dolorem deserunt maiores,
+                            officiis
+                            quis voluptate nemo!
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- pengajar -->
+
+    <section class="text-center bg-primary p-5">
+        <div class="container">
+            <h2 class="mb-5  text-light">Asatidzah</h2>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 py-4">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/39.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="mb-4">Ust. John Doe</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos tenetur
+                                laborum beatae natus iusto ullam! Ex numquam totam quidem distinctio nihil molestias,
+                                exercitationem blanditiis</p>
+                            <i class="fa-brands fa-square-instagram fa-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 py-4">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/69.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="mb-4">Ust. Mahmud Smith</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos tenetur
+                                laborum beatae natus iusto ullam! Ex numquam totam quidem distinctio nihil molestias,
+                                exercitationem blanditiis</p>
+                            <i class="fa-brands fa-square-instagram fa-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 py-4">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/89.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="mb-4">Ust. Muborok Fury</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos tenetur
+                                laborum beatae natus iusto ullam! Ex numquam totam quidem distinctio nihil molestias,
+                                exercitationem blanditiis</p>
+                            <i class="fa-brands fa-square-instagram fa-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card h-100 py-4">
+                        <div class="card-body">
+                            <img src="https://randomuser.me/api/portraits/men/83.jpg" alt=""
+                                class="rounded-circle mb-3">
+                            <h3 class="mb-4">Ust. Jibriel Ahmad</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eos tenetur
+                                laborum beatae natus iusto ullam! Ex numquam totam quidem distinctio nihil molestias,
+                                exercitationem blanditiis</p>
+                            <i class="fa-brands fa-square-instagram fa-lg"></i>
+                            <i class="fa-brands fa-linkedin fa-lg"></i>
+                            <i class="fa-brands fa-twitter fa-lg"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section class="p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="mb-4">Contact</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Alamat: </span>Karangkedawung, Sokaraja, Banyumas, Jawa Tengah
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">No Telp/WA: </span>Karangkedawung, Sokaraja, Banyumas, Jawa Tengah
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email: </span>Karangkedawung, Sokaraja, Banyumas, Jawa Tengah
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">media sosial: </span>
+                            <a href="#"><i href="#"
+                                    class="medsos-link text-secondary fa-brands fa-square-instagram fa-lg"></i></a>
+                            <a href="#"><i href="#"
+                                    class="medsos-link text-secondary fa-brands fa-square-twitter fa-lg"></i></a>
+                            <a href="#"><i href="#"
+                                    class="medsos-link text-secondary fa-brands fa-linkedin fa-lg"></i></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="p-4 position-relative bg-dark text-light text-center">
+        <div class="container">
+            <p class="">Copyright &copy; 2023 Rumah Quran Ar-Raayah</p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-4 text-light">
+                <i class="fa-solid fa-circle-arrow-up h1"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
